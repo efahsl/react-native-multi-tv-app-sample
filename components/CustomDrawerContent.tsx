@@ -21,7 +21,7 @@ export default function CustomDrawerContent(props: any) {
     <SpatialNavigationRoot isActive={isMenuOpen}>
       <DrawerContentScrollView {...props} style={styles.container} scrollEnabled={false}>
         <View style={styles.header}>
-          <Image source={require('@/assets/images/logo.png')} style={styles.profilePic} />
+          <Image source={{uri:'https://s3.us-west-2.amazonaws.com/whereshouldiski.com/img/ot/RN-OT-Logo.png'}} style={styles.profilePic} />
           <Text style={styles.userName}>Pioneer Tom</Text>
           <Text style={styles.switchAccount}>Switch account</Text>
         </View>
