@@ -11,6 +11,8 @@ import { GoBackConfiguration } from './remote-control/GoBackConfiguration';
 // Prevent the splash screen from auto-hiding before asset loading is complete.
 SplashScreen.preventAutoHideAsync();
 
+import './configureRemoteControl';
+
 export default function RootLayout() {
   const [loaded, error] = useFonts({
     SpaceMono: require('../assets/fonts/SpaceMono-Regular.ttf'),
